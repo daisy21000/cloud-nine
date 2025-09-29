@@ -1,3 +1,48 @@
+/* CSS Variables */
+:root {
+    --primary-font: "Nunito", sans-serif;
+    --secondary-font: "Pacifico", cursive;
+    --primary-color: #87cefa; /* Light Sky Blue */
+    --secondary-color: #00bfff; /* Deep Sky Blue */
+    --highlight-color: #16166b; /* Federal Blue */
+    --background-color: #f0f8ff; /* Alice Blue */
+}
+
+/* General Styles */
+body {
+    font-family: var(--primary-font);
+    background-color: var(--background-color);
+    color: var(--highlight-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--secondary-font);
+}
+
+/* Button Styles */
+.primary-btn {
+    background-color: var(--primary-color);
+    border: none;
+}
+
+.secondary-btn {
+    background-color: var(--secondary-color);
+    border: none;
+}
+
+.primary-btn:hover {
+    background-color: var(--secondary-color);
+}
+
+.secondary-btn:hover {
+    background-color: var(--primary-color);
+}
+
 /* Hero Section */
 #hero {
     background: url("../images/clouds.png") center/cover;
