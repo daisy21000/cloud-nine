@@ -43,6 +43,19 @@ h6 {
     background-color: var(--primary-color);
 }
 
+/* Navbar Styles */
+#navbar {
+    background-color: var(--background-color);
+}
+
+#navbar a {
+    color: var(--highlight-color);
+}
+
+#navbar a:hover {
+    color: var(--secondary-color);
+}
+
 /* Hero Section */
 #hero {
     background: url("../images/clouds.png") center/cover;
