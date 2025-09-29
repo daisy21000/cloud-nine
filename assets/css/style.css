@@ -69,3 +69,24 @@ h6 {
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
     letter-spacing: 10px;
 }
+
+/* Calm Zone Section (Home Page) */
+#calm-zone .image {
+    height: 400px;
+}
+
+#calm-zone .image img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+/* Media Queries */
+
+/* Large Screens (992px and up) */
+@media screen and (min-width: 992px) {
+    #calm-zone .image img {
+        height: 400px;
+        width: 400px;
+    }
+}
