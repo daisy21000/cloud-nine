@@ -91,6 +91,12 @@ h6 {
     object-fit: contain;
 }
 
+/* Footer */
+footer {
+    background: url("../images/clouds.png") center/cover;
+    background-attachment: fixed;
+}
+
 /* Media Queries */
 
 /* Medium Screens (768px and up) */
