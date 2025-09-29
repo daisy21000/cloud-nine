@@ -81,12 +81,36 @@ h6 {
     border-radius: 50%;
 }
 
+/* Support Section */
+#support .card {
+    font-size: 0.9rem;
+}
+
+#support .card-img-top {
+    height: 200px;
+    object-fit: contain;
+}
+
 /* Media Queries */
+
+/* Medium Screens (768px and up) */
+@media screen and (min-width: 768px) {
+    #support .card {
+        height: 500px;
+    }
+}
 
 /* Large Screens (992px and up) */
 @media screen and (min-width: 992px) {
     #calm-zone .image img {
         height: 400px;
         width: 400px;
+    }
+}
+
+/* Extra Large Screens (1200px and up) */
+@media screen and (min-width: 1200px) {
+    #support .card {
+        height: 600px;
     }
 }
