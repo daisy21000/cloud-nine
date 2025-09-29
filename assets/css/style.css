@@ -1,3 +1,6 @@
-h1 {
-    color: rebeccapurple;
+/* Hero Section */
+#hero {
+    background: url("../images/clouds.png") center/cover;
+    background-attachment: fixed;
+    height: 75vh;
 }
