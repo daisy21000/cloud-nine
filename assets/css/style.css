@@ -107,7 +107,33 @@ footer i:hover {
     color: var(--primary-color);
 }
 
+/* Calm Zone - Quotes Section */
+#quotes {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#quotescarousel {
+    border: 2px dashed var(--primary-color);
+    border-radius: 10px;
+}
+
+#quotescarousel .carousel-item {
+    min-height: 200px;
+    margin: 5px;
+}
+
+#quotescarousel .carousel-item:not(.active) {
+    position: absolute;
+}
+
 /* Media Queries */
+/** Small Screens (576px and up) */
+@media screen and (min-width: 576px) {
+    #quotescarousel .carousel-item {
+        min-height: 150px;
+    }
+}
 
 /* Medium Screens (768px and up) */
 @media screen and (min-width: 768px) {
@@ -121,6 +147,10 @@ footer i:hover {
     #calm-zone .image img {
         height: 400px;
         width: 400px;
+    }
+
+    #quotescarousel .carousel-item {
+        min-height: 125px;
     }
 }
 
