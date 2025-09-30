@@ -98,6 +98,15 @@ footer {
     background-attachment: fixed;
 }
 
+footer i {
+    color: var(--highlight-color);
+    transition: all 0.2s;
+}
+
+footer i:hover {
+    color: var(--primary-color);
+}
+
 /* Media Queries */
 
 /* Medium Screens (768px and up) */
