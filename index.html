@@ -210,10 +210,12 @@
         crossorigin="anonymous"></script>
     <script>
         const navbar = document.getElementById("navbar")
+        if (window.innerWidth < 576)
+            navbar.style.backgroundColor = "aliceblue"
         // Change navbar background on scroll
         document.addEventListener("scroll", () => {
             let scroll = window.scrollY;
-            if (scroll === 0) {
+            if (scroll === 0 && window.innerWidth >= 576) {
                 navbar.style.backgroundColor = "transparent"
                 navbar.classList.remove("border-bottom")
             } else {
