@@ -127,6 +127,11 @@ footer i:hover {
     position: absolute;
 }
 
+/* Calm Zone - Stress Tips Section */
+#stress-tips #tipsAccordian * {
+    color: var(--highlight-color);
+}
+
 /* Media Queries */
 /** Small Screens (576px and up) */
 @media screen and (min-width: 576px) {
