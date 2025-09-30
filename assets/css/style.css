@@ -137,6 +137,10 @@ footer i:hover {
 }
 
 /* Info Page */
+h1#info-header {
+    font-size: 2.25rem;
+}
+
 #info .card {
     color: #16166b;
 }
@@ -146,6 +150,10 @@ footer i:hover {
 @media screen and (min-width: 576px) {
     #quotescarousel .carousel-item {
         min-height: 150px;
+    }
+
+    h1#info-header {
+        font-size: 3.5rem;
     }
 }
 
