@@ -136,6 +136,11 @@ footer i:hover {
     color: var(--highlight-color);
 }
 
+/* Info Page */
+#info .card {
+    color: #16166b;
+}
+
 /* Media Queries */
 /** Small Screens (576px and up) */
 @media screen and (min-width: 576px) {
@@ -149,6 +154,10 @@ footer i:hover {
     #support .card {
         height: 500px;
     }
+
+    #info .card {
+        height: 420px;
+    }
 }
 
 /* Large Screens (992px and up) */
@@ -161,11 +170,19 @@ footer i:hover {
     #quotescarousel .carousel-item {
         min-height: 125px;
     }
+
+    #info .card {
+        height: 500px;
+    }
 }
 
 /* Extra Large Screens (1200px and up) */
 @media screen and (min-width: 1200px) {
     #support .card {
         height: 600px;
+    }
+
+    #info .card {
+        height: 400px;
     }
 }
