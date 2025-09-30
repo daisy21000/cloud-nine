@@ -24,6 +24,10 @@ h6 {
     font-family: var(--secondary-font);
 }
 
+section {
+    padding-top: 4rem;
+}
+
 /* Button Styles */
 .primary-btn {
     background-color: var(--primary-color);
