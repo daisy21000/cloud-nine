@@ -114,7 +114,7 @@ footer i:hover {
 }
 
 #quotescarousel {
-    border: 2px dashed var(--primary-color);
+    border: 2px dotted var(--primary-color);
     border-radius: 10px;
 }
 
