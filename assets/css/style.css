@@ -156,6 +156,13 @@ h1#info-header {
 }
 
 /* Media Queries */
+/* For screens with small heights (less than 550px) */
+@media screen and (max-height: 550px) {
+    #hero {
+        height: 90vh;
+    }
+}
+
 /** Small Screens (576px and up) */
 @media screen and (min-width: 576px) {
     #quotescarousel .carousel-item {
