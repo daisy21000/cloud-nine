@@ -12,6 +12,8 @@
 body {
     font-family: var(--primary-font);
     background-color: var(--background-color);
+    background: url("../images/clouds.png") center/cover;
+    background-attachment: fixed;
     color: var(--highlight-color);
     padding-top: 56px; /* Height of Navbar */
 }
@@ -23,6 +25,10 @@ h4,
 h5,
 h6 {
     font-family: var(--secondary-font);
+}
+
+main {
+    background-color: var(--background-color);
 }
 
 section {
@@ -70,8 +76,6 @@ section {
 
 /* Hero Section */
 #hero {
-    background: url("../images/clouds.png") center/cover;
-    background-attachment: fixed;
     height: 75vh;
 }
 
@@ -105,11 +109,6 @@ section {
 }
 
 /* Footer */
-footer {
-    background: url("../images/clouds.png") center/cover;
-    background-attachment: fixed;
-}
-
 footer i {
     color: var(--highlight-color);
     -webkit-transition: all 0.2s;
