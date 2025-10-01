@@ -68,6 +68,9 @@ section {
 
 #navbar a {
     color: var(--highlight-color);
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
 }
 
 #navbar a:hover {
