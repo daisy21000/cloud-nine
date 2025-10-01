@@ -32,20 +32,24 @@ section {
 /* Button Styles */
 .primary-btn {
     background-color: var(--primary-color);
-    border: none;
+    color: var(--highlight-color);
+    border: 1px solid var(--primary-color);
 }
 
 .secondary-btn {
     background-color: var(--secondary-color);
-    border: none;
+    color: var(--highlight-color);
+    border: 1px solid var(--secondary-color);
 }
 
 .primary-btn:hover {
-    background-color: var(--secondary-color);
+    color: var(--highlight-color);
+    background-color: var(--background-color);
 }
 
 .secondary-btn:hover {
-    background-color: var(--primary-color);
+    color: var(--highlight-color);
+    background-color: var(--background-color);
 }
 
 /* Navbar Styles */
