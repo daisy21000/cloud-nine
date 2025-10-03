@@ -100,6 +100,8 @@ A Bootstrap carousel has been used in the 'Quotes' section to cycle through quot
 
 A Bootstrap accordian was used in the 'Stress Tips' section in the 'Calm Zone' page. It has the title of tips with a short description showing once clicked so that the user can take in information slowly.
 
+<img width="1685" height="431" alt="Screenshot 2025-10-01 154453" src="https://github.com/user-attachments/assets/36b6e158-48df-461f-8692-17e4e0294be5" />
+
 **Footer**
 
 The footer has the same background as the hero with some copyright text and social media links. 
